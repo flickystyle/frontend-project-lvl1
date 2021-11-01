@@ -3,9 +3,9 @@ name: make-eslint-test
 on:
   push:
     branches: [ main ]
-
-    runs-on: ubuntu-latest
-
+Jobs:
+  build:
+    runs-on: ubuntu-latest   
     steps:
       - name: eslint-test
       - run: make lint
