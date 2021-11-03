@@ -5,4 +5,4 @@
 
 ![make-eslint-test](https://github.com/flickystyle/frontend-project-lvl1/actions/workflows/make-eslint-test.yml/badge.svg)
 
-[![asciicast](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ)](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ)
+![asciicast](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ)https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ
