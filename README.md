@@ -5,6 +5,9 @@
 
 ![make-eslint-test](https://github.com/flickystyle/frontend-project-lvl1/actions/workflows/make-eslint-test.yml/badge.svg)
 
-![asciicast brain-even](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ)
-![asciicast brain-calc](https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv)
-![asciicast brain-gcd](https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9)
+//brain-even
+https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ
+//brain-calc
+https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv
+//brain-gcd
+https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9
