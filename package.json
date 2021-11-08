@@ -4,7 +4,8 @@
   "description": "First project",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "main": "index.js",
   "type": "module",
