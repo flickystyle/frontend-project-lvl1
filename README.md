@@ -5,9 +5,11 @@
 
 ![make-eslint-test](https://github.com/flickystyle/frontend-project-lvl1/actions/workflows/make-eslint-test.yml/badge.svg)
 
-//brain-even
+### brain-even
 https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ
-//brain-calc
+### brain-calc
 https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv
-//brain-gcd
+### brain-gcd
 https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9
+### brain-progression
+https://asciinema.org/a/448219
