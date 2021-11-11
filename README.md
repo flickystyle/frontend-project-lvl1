@@ -17,11 +17,11 @@ These games are for the Node.js v16.13.0 and later.
  3. Type command: _make brain-"anygame" (without "")_
 
 ### Games:
-**brain-even** - determine if a number is even or not.
-**brain-calc** - find an answer to a random mathematical expression.
-**brain-gcd** - find the greatest common divisor of these numbers.
-**brain-progression** - find a number from a series of numbers forming an arithmetic progression.
-**brain-prime** - determine if a number is prime or not.
++ **brain-even** - determine if a number is even or not.
++ **brain-calc** - find an answer to a random mathematical expression.
++ **brain-gcd** - find the greatest common divisor of these numbers.
++ **brain-progression** - find a number from a series of numbers forming an arithmetic progression.
++ **brain-prime** - determine if a number is prime or not.
 
 ### brain-even
 https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ
