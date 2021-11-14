@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/flickystyle/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/flickystyle/frontend-project-lvl1/actions)
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<a href="https://codeclimate.com/github/flickystyle/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/22645a1d20b242fe2f60/maintainability" /></a>
 
 ![make-eslint-test](https://github.com/flickystyle/frontend-project-lvl1/actions/workflows/make-eslint-test.yml/badge.svg)
 
@@ -12,10 +12,10 @@ These games are for the Node.js v16.13.0 and later.
 
 **For Instalation:**
 
- 1. Clone: git@github.com:flickystyle/frontend-project-lvl1.git
+ 1. Press green button **Code** and clone this repository.
  2. Type command: _make install_
  3. Type command: _make brain-"anygame" (without "")_
-
+  
 ### Games:
 + **brain-even** - determine if a number is even or not.
 + **brain-calc** - find an answer to a random mathematical expression.
