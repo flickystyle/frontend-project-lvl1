@@ -14,7 +14,7 @@ const getQuestionAnswer = () => {
   const firstNumber = getRandomNumber();
   const randomStep = Math.floor(Math.random() * 10) + 3;
   const getLength = Math.floor(Math.random() * 10) + 7;
-  const hideStep = Math.floor(Math.random() * 7) + 1;
+  const hideStep = Math.floor(Math.random() * 5) + 1;
   const gameProgression = generateProgression(firstNumber, randomStep, getLength);
   const gameAnswer = String(gameProgression[hideStep]);
   gameProgression[hideStep] = '..';
