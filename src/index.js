@@ -15,10 +15,11 @@ const game = (description, getQuestionAnswer) => {
     if (gameCorrectAnswer !== userAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${gameCorrectAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
+      return;
     }
-    console.log('Correct');
+    console.log('Correct!');
   }
-  return console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default game;
