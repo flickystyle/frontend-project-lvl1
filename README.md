@@ -24,12 +24,12 @@ These games are for the Node.js v16.13.0 and later.
 + **brain-prime** - determine if a number is prime or not.
 
 ### brain-even
-https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ
+[![asciicast](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ.svg)](https://asciinema.org/a/5EYLnv9BaYUwceOuAdhmYYBAZ)
 ### brain-calc
-https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv
+[![asciicast](https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv.svg)](https://asciinema.org/a/wVWJTEsswIXkG06lP6uIxPCsv)
 ### brain-gcd
-https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9
+[![asciicast](https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9.svg)](https://asciinema.org/a/dRPeha2A5bTu5XUzPpjf5MJO9)
 ### brain-progression
-https://asciinema.org/a/448219
+[![asciicast](https://asciinema.org/a/448219.svg)](https://asciinema.org/a/448219)
 ### brain-prime
-https://asciinema.org/a/448250
+[![asciicast](https://asciinema.org/a/448250.svg)](https://asciinema.org/a/448250)
