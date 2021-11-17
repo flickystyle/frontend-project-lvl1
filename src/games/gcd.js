@@ -1,21 +1,16 @@
 import getRandomNumber from '../random_number.js';
 import game from '../index.js';
 
-const greatestDivisorRec = (num1, num2) => {
-  if (num2) {
-    return greatestDivisorRec(num2, num1 % num2);
-  }
-  return num1;
-};
+const greatestDivisor = (num1, num2) => (num2 === 0 ? num1 : greatestDivisor(num2, num1 % num2));
 
 const description = 'Find the greatest common divisor of given numbers.';
 
 const getQuestionAnswer = () => {
   const firstRandomNumber = getRandomNumber();
   const secondRandomNumber = getRandomNumber();
-  const gameQuestion = (`${firstRandomNumber} ${secondRandomNumber}`);
-  const gameAnswer = String(greatestDivisorRec(firstRandomNumber, secondRandomNumber));
-  return [gameQuestion, gameAnswer];
+  const question = (`${firstRandomNumber} ${secondRandomNumber}`);
+  const correctAnswer = String(greatestDivisor(firstRandomNumber, secondRandomNumber));
+  return [question, correctAnswer];
 };
 
 const gcd = () => game(description, getQuestionAnswer);

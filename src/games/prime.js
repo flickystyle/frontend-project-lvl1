@@ -6,18 +6,16 @@ const isPrime = (num) => {
     if (num % i === 0) {
       return false;
     }
-  } if (num < 2) {
-    return false;
   }
-  return true;
+  return num > 1;
 };
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const getQuestionAnswer = () => {
-  const gameQuestion = getRandomNumber();
-  const gameAnswer = isPrime(gameQuestion) ? 'yes' : 'no';
-  return [gameQuestion, gameAnswer];
+  const question = getRandomNumber();
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  return [question, correctAnswer];
 };
 
 const prime = () => game(description, getQuestionAnswer);

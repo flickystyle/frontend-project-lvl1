@@ -12,14 +12,14 @@ const description = 'What number is missing in the progression?';
 
 const getQuestionAnswer = () => {
   const firstNumber = getRandomNumber();
-  const randomStep = Math.floor(Math.random() * 10) + 3;
-  const getLength = Math.floor(Math.random() * 10) + 7;
-  const hideStep = Math.floor(Math.random() * 5) + 1;
+  const randomStep = getRandomNumber(2, 10);
+  const getLength = getRandomNumber(5, 10);
+  const hideStep = getRandomNumber(0, getLength - 1);
   const gameProgression = generateProgression(firstNumber, randomStep, getLength);
-  const gameAnswer = String(gameProgression[hideStep]);
+  const correctAnswer = String(gameProgression[hideStep]);
   gameProgression[hideStep] = '..';
-  const gameQuestion = gameProgression.join(' ');
-  return [gameQuestion, gameAnswer];
+  const question = gameProgression.join(' ');
+  return [question, correctAnswer];
 };
 
 const progression = () => game(description, getQuestionAnswer);

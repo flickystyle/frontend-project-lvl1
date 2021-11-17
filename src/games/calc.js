@@ -3,26 +3,31 @@ import game from '../index.js';
 
 const calcNumbers = (firstNum, operator, secondNum) => {
   let rightAnswer;
-  if (operator === '+') {
-    rightAnswer = firstNum + secondNum;
-  } else if (operator === '-') {
-    rightAnswer = firstNum - secondNum;
-  } else if (operator === '*') {
-    rightAnswer = firstNum * secondNum;
-  }
-  return rightAnswer;
+  switch (operator) {
+    case '+':
+      rightAnswer = firstNum + secondNum;
+      break;
+    case '-':
+      rightAnswer = firstNum - secondNum;
+      break;
+    case '*':
+      rightAnswer = firstNum * secondNum;
+      break;
+    default:
+      rightAnswer = null;
+  } return rightAnswer;
 };
 
 const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const getQuestionAnswer = () => {
-  const randomOperator = operators[Math.floor(Math.random() * operators.length)];
+  const randomOperator = operators[getRandomNumber(0, operators.length)];
   const firstRandomNumber = getRandomNumber();
   const secondRandomNumber = getRandomNumber();
-  const gameQuestion = (`${firstRandomNumber} ${randomOperator} ${secondRandomNumber}`);
-  const gameAnswer = String(calcNumbers(firstRandomNumber, randomOperator, secondRandomNumber));
-  return [gameQuestion, gameAnswer];
+  const question = (`${firstRandomNumber} ${randomOperator} ${secondRandomNumber}`);
+  const correctAnswer = String(calcNumbers(firstRandomNumber, randomOperator, secondRandomNumber));
+  return [question, correctAnswer];
 };
 
 const calc = () => game(description, getQuestionAnswer);
