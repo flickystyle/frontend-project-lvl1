@@ -22,6 +22,6 @@ const getQuestionAnswer = () => {
   return [question, correctAnswer];
 };
 
-const progression = () => game(description, getQuestionAnswer);
+const runProgressionGame = () => game(description, getQuestionAnswer);
 
-export default progression;
+export default runProgressionGame;

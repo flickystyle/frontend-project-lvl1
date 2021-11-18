@@ -21,6 +21,6 @@ const getQuestionAnswer = () => {
   return [question, correctAnswer];
 };
 
-const prime = () => game(description, getQuestionAnswer);
+const runPrimeGame = () => game(description, getQuestionAnswer);
 
-export default prime;
+export default runPrimeGame;
