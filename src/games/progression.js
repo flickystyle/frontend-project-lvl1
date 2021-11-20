@@ -14,10 +14,10 @@ const getQuestionAnswer = () => {
   const firstNumber = getRandomNumber();
   const randomStep = getRandomNumber(2, 10);
   const getLength = getRandomNumber(5, 10);
-  const hideStep = getRandomNumber(0, getLength - 1);
+  const hideIndex = getRandomNumber(0, getLength - 1);
   const gameProgression = generateProgression(firstNumber, randomStep, getLength);
-  const correctAnswer = String(gameProgression[hideStep]);
-  gameProgression[hideStep] = '..';
+  const correctAnswer = String(gameProgression[hideIndex]);
+  gameProgression[hideIndex] = '..';
   const question = gameProgression.join(' ');
   return [question, correctAnswer];
 };
