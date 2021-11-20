@@ -2,20 +2,16 @@ import getRandomNumber from '../random_number.js';
 import game from '../index.js';
 
 const calculate = (firstNum, operator, secondNum) => {
-  let rightAnswer;
   switch (operator) {
     case '+':
-      rightAnswer = firstNum + secondNum;
-      break;
+      return firstNum + secondNum;
     case '-':
-      rightAnswer = firstNum - secondNum;
-      break;
+      return firstNum - secondNum;
     case '*':
-      rightAnswer = firstNum * secondNum;
-      break;
+      return firstNum * secondNum;
     default:
-      rightAnswer = null;
-  } return rightAnswer;
+      return null;
+  }
 };
 
 const description = 'What is the result of the expression?';
